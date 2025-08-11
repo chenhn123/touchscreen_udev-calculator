@@ -2,11 +2,11 @@
 ARCH ?= native
 
 # Source and object files
-SRCS = calibrate.c
+SRCS = udev_calculator.c
 OBJS = $(SRCS:.c=.o)
 
 # Executable name based on architecture
-TARGET = calibrate
+TARGET = udev_calculator
 
 # Set compiler and flags based on target architecture
 ifeq ($(ARCH), arm)
